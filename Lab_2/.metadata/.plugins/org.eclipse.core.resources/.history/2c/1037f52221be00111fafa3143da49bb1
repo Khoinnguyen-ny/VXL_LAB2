@@ -1,0 +1,18 @@
+/*
+ * software.h
+ *
+ *  Created on: Oct 2, 2026
+ *      Author: Admin
+ */
+
+#ifndef INC_SOFTWARE_H_
+#define INC_SOFTWARE_H_
+
+extern timer1_flag;
+extern timer2_flag;
+
+void setTimer1(duration);
+void setTimer2(duaration);
+void timerRun();
+
+#endif /* INC_SOFTWARE_H_ */
